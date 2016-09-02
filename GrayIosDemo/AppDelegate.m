@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BeginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+//    UITabBarController *tab = [[UITabBarController alloc] init];
+//    tab.tabBar.tintColor = [UIColor redColor];
+//    tab.tabBar.backgroundColor = [UIColor whiteColor];
+//    
+//    BeginViewController *vc = [BeginViewController new];
+//    vc.title = @"BDViewController";
+//    vc.tabBarItem.image = [UIImage imageNamed:@"tab_bd_normal"];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//    [nav.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    nav.navigationBar.shadowImage = [UIImage new];
+//    UIColor *textColor = [UIColor redColor];
+//    nav.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:textColor,NSFontAttributeName:[UIFont fontWithName:@"AppleGothic" size:20]};
+//    [tab addChildViewController:nav];
+//    
+//    self.window.rootViewController = tab;
+    
+    // Override point for customization after application launch.
+    //获取屏幕大小
+    UIScreen *screen = [UIScreen mainScreen];
+    //初始化窗口
+    self.window = [[UIWindow alloc]initWithFrame:screen.bounds];
+    //将视图1设置为初始视图
+    BeginViewController *vc1 = [[BeginViewController alloc]init];
+    //来个背景颜色区分一下
+    vc1.view.backgroundColor = [UIColor blueColor];
+    //实例化导航视图控制器并添加视图1进来
+    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:vc1];
+    //将导航视图控制器设置为窗口根视图
+    self.window.rootViewController = nc;
+    //设置窗口可见
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
