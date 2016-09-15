@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BeginViewController.h"
+#import "caculateController.h"
 
 @interface AppDelegate ()
 
@@ -38,19 +38,19 @@
     
     // Override point for customization after application launch.
     //获取屏幕大小
-    UIScreen *screen = [UIScreen mainScreen];
-    //初始化窗口
-    self.window = [[UIWindow alloc]initWithFrame:screen.bounds];
-    //将视图1设置为初始视图
-    BeginViewController *vc1 = [[BeginViewController alloc]init];
-    //来个背景颜色区分一下
-    vc1.view.backgroundColor = [UIColor blueColor];
-    //实例化导航视图控制器并添加视图1进来
-    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:vc1];
-    //将导航视图控制器设置为窗口根视图
-    self.window.rootViewController = nc;
-    //设置窗口可见
-    [self.window makeKeyAndVisible];
+//    UIScreen *screen = [UIScreen mainScreen];
+//    //初始化窗口
+//    self.window = [[UIWindow alloc]initWithFrame:screen.bounds];
+//    //将视图1设置为初始视图
+//    caculateController *vc1 = [[caculateController alloc]init];
+//    //来个背景颜色区分一下
+//    vc1.view.backgroundColor = [UIColor whiteColor];
+//    //实例化导航视图控制器并添加视图1进来
+//    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:vc1];
+//    //将导航视图控制器设置为窗口根视图
+//    self.window.rootViewController = nc;
+//    //设置窗口可见
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }

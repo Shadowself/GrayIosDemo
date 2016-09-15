@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506ED8621D830DE500089931 /* caculateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ED8611D830DE500089931 /* caculateController.m */; };
 		BF44DC2C1D797342000B2299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF44DC2B1D797342000B2299 /* main.m */; };
 		BF44DC2F1D797342000B2299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF44DC2E1D797342000B2299 /* AppDelegate.m */; };
 		BF44DC351D797342000B2299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF44DC331D797342000B2299 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		506ED8601D830DE400089931 /* caculateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caculateController.h; sourceTree = "<group>"; };
+		506ED8611D830DE500089931 /* caculateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = caculateController.m; sourceTree = "<group>"; };
 		BF44DC271D797342000B2299 /* GrayIosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrayIosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF44DC2B1D797342000B2299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF44DC2D1D797342000B2299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				BF44DC6A1D79959E000B2299 /* ViewController2.m */,
 				BF44DC6C1D7995B0000B2299 /* ViewController3.h */,
 				BF44DC6D1D7995B0000B2299 /* ViewController3.m */,
+				506ED8601D830DE400089931 /* caculateController.h */,
+				506ED8611D830DE500089931 /* caculateController.m */,
 				BF44DC331D797342000B2299 /* Main.storyboard */,
 				BF44DC361D797342000B2299 /* Assets.xcassets */,
 				BF44DC381D797342000B2299 /* LaunchScreen.storyboard */,
@@ -290,6 +295,7 @@
 				BF44DC6E1D7995B0000B2299 /* ViewController3.m in Sources */,
 				BF44DC6B1D79959E000B2299 /* ViewController2.m in Sources */,
 				BF44DC2F1D797342000B2299 /* AppDelegate.m in Sources */,
+				506ED8621D830DE500089931 /* caculateController.m in Sources */,
 				BF44DC2C1D797342000B2299 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +520,7 @@
 				BF44DC561D797342000B2299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF44DC571D797342000B2299 /* Build configuration list for PBXNativeTarget "GrayIosDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				BF44DC591D797342000B2299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF44DC5A1D797342000B2299 /* Build configuration list for PBXNativeTarget "GrayIosDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				BF44DC5C1D797342000B2299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

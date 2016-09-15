@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "61A52BBE3A831E03304EB5822743D1C62C746545",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7DC9E4C0A2D7D65F3DC61FE34A16548D5D05F80B" : 0,
+    "61A52BBE3A831E03304EB5822743D1C62C746545" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD6087F9-6F4F-4F2E-A936-57CD50272AD1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7DC9E4C0A2D7D65F3DC61FE34A16548D5D05F80B" : "..\/Desktop\/beibei",
+    "61A52BBE3A831E03304EB5822743D1C62C746545" : "GrayIosDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GrayIosDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GrayIosDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shadowself\/GrayIosDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61A52BBE3A831E03304EB5822743D1C62C746545"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.husor.com.cn\/ios\/beibei.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7DC9E4C0A2D7D65F3DC61FE34A16548D5D05F80B"
+    }
+  ]
+}

@@ -7,7 +7,7 @@
 //
 
 #import "BeginViewController.h"
-#import "ViewController1.h"
+#import "caculateController.h"
 
 @interface BeginViewController ()
 
@@ -40,8 +40,8 @@
 
 //这里才是实现页面跳转的重点！！！！
 -(IBAction)go:(id)sender{
-    ViewController1 *vc2 = [[ViewController1 alloc] init];
-    vc2.view.backgroundColor = [UIColor greenColor];
+    caculateController *vc2 = [[caculateController alloc] init];
+    vc2.view.backgroundColor = [UIColor whiteColor];
     //看这里！！！！！push方法将视图一推向视图二
     [self.navigationController pushViewController:vc2 animated:YES];
 }
